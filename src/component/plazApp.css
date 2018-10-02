@@ -1,0 +1,155 @@
+:root{
+	--pc: #000000;
+	--sc: #00D4FF;
+	--tc: #FFFFFF;
+	--cc: #333333;
+}
+
+*{
+	box-sizing: border-box; 
+} 
+
+body{
+	margin: 0%;
+}
+
+#load{
+	display: block;
+	width:100%;
+	height: 100vh;
+	padding-top: 5vh; 
+}
+
+#conten{
+	display: none;
+}
+
+#logo{
+	margin-left: 2vw;
+	height: 60vh;	
+}
+
+.navBar{
+	z-index: 1000;
+	position: fixed;
+	margin-top: 2vh;
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+	display:flex;
+}
+
+.menu{
+	display: inline;
+	padding: 3vh;
+	height: 10vh;
+	margin-left: 35vw;
+}
+
+#name{
+	margin-left: 10vw;
+	height: 10vh;
+}
+
+.menuButton{
+	font-family: arial black;
+	font-size: 1.4vw;
+	cursor: pointer;
+	padding-top: 1.0vh;
+	padding-bottom: 1.0vh;
+	margin-right: 1.0vw;
+}
+
+.menuButtonActive{
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	background-color: var(--sc);
+	color: black;
+	border-radius: 0.5vw;
+}
+
+.menuButtonInactive{
+	padding-left: 1.0vw;
+	padding-right: 1.0vw;
+	background-color: var--(pc);
+	color: var(--tc);
+	
+}
+
+.menuButtonInactive:hover{
+	border-radius: 1vh;
+	background-color: var(--cc);
+}
+
+.section{
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#inicio{
+	padding-top: 20vh;
+	background-image: url("inicio.jpg");
+	display: flex;
+}
+
+#descripcion{
+	text-align: center;
+	position: inherit;
+	padding: 3vw;
+	width: 60%;
+	font-size: 3.0vw;
+	font-family: Arial black;
+	color: var(--sc);
+	text-shadow: 0.3vh 0.3vh 0.5vh var(--cc);
+}
+
+#propuesta{
+	background-image: url("propuesta.jpg");
+}
+
+h1{
+	width: 100%;
+	font-size: 6.0vw;
+	padding-top: 15vh;
+	padding-bottom: 5vh;
+	font-family: arial black;
+	color: var(--pc);
+	background-color: var(--sc);
+	text-align: center;
+	margin:0%;
+}
+
+#prop{
+	width: 70%;
+	text-align: justify;
+	font-family: arial black;
+	font-size: 2.0vw;
+	color: var(--pc);
+}
+
+
+#grupo{
+	background-image: url("grupotrabajo.jpg");
+}
+
+#page{
+	padding: 1vh;
+	margin: 0%;
+	width: 100%;
+	height: 60vh;
+}
+
+#video{
+	width: 60%;
+	height: 60vh;
+	background-color: var(--pc);
+}
+
+
+
+
+
+
